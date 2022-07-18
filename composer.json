@@ -1,0 +1,23 @@
+{
+    "name": "johnthelinux/webframework",
+    "description": "A POC Web Framework for Tech Event in Bangkok",
+    "autoload": {
+        "psr-4": {
+            "Gwi\\Larafony\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Htet Wai Yan Soe",
+            "email": "johnthelinux@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-kernel": "^6.1",
+        "symfony/http-foundation": "^6.1",
+        "symfony/routing": "^6.1",
+        "symfony/serializer": "^6.1",
+        "symfony/validator": "^6.1",
+        "symfony/var-dumper": "^6.1"
+    }
+}
