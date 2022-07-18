@@ -18,6 +18,7 @@
         "symfony/routing": "^6.1",
         "symfony/serializer": "^6.1",
         "symfony/validator": "^6.1",
-        "symfony/var-dumper": "^6.1"
+        "symfony/var-dumper": "^6.1",
+        "symfony/event-dispatcher": "^6.1"
     }
 }

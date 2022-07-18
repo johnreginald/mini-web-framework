@@ -27,3 +27,7 @@ We are going to create a small E-commerce API with Symfony Components and how we
 - Add to products to cart
 - Get the Cart detail
 - Checkout the cart with products
+
+## Docker Installation
+1. `docker-compose build --pull`
+2. `docker-compose up -d`
