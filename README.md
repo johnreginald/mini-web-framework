@@ -21,7 +21,7 @@ We are going to create a small E-commerce API with Symfony Components and how we
 - Docker
 
 ## Presentation
-https://docs.google.com/presentation/d/1xV6861dbOJTwM2a_zegWynXWw7bSg3xDigZSm734g6E/edit?usp=sharing
+https://docs.google.com/presentation/d/18_BFlVwKiqmuRRHeNLnmL1bi-phX7fGy/edit?usp=sharing&ouid=118374224848337742462&rtpof=true&sd=true
 
 ## Objectives
 - Register a User
