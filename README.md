@@ -20,6 +20,9 @@ We are going to create a small E-commerce API with Symfony Components and how we
 - Postman
 - Docker
 
+## Presentation
+https://docs.google.com/presentation/d/1xV6861dbOJTwM2a_zegWynXWw7bSg3xDigZSm734g6E/edit?usp=sharing
+
 ## Objectives
 - Register a User
 - Login as a registered user and get JWT Token
