@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   php:
-    container_name: php
+    container_name: larafony-php
     build:
       context: ./
     ports:
@@ -12,7 +12,7 @@ services:
 
   database:
     image: 'mariadb:latest'
-    container_name: database
+    container_name: larafony-database
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: larafony
@@ -20,7 +20,7 @@ services:
       - '3306:3306'
 
   nginx:
-    container_name: nginx
+    container_name: larafony-nginx
     image: nginx:stable-alpine
     ports:
       - '8000:80'
