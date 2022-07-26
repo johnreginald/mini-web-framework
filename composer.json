@@ -3,7 +3,8 @@
     "description": "A POC Web Framework for Tech Event in Bangkok",
     "autoload": {
         "psr-4": {
-            "Gwi\\Larafony\\": "src/"
+            "App\\": "src/",
+            "Infrastructure\\": "infrastructure/"
         }
     },
     "authors": [
@@ -18,7 +19,14 @@
         "symfony/routing": "^6.1",
         "symfony/serializer": "^6.1",
         "symfony/validator": "^6.1",
-        "symfony/var-dumper": "^6.1",
-        "symfony/event-dispatcher": "^6.1"
+        "symfony/event-dispatcher": "^6.1",
+        "illuminate/collections": "^9.21",
+        "illuminate/database": "^9.21",
+        "symfony/dependency-injection": "^6.1",
+        "symfony/config": "^6.1",
+        "symfony/yaml": "^6.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
     }
 }
