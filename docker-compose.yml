@@ -3,6 +3,7 @@ version: '3.4'
 services:
   php:
     container_name: larafony-php
+    tty: true
     build:
       context: ./
     ports:

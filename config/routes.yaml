@@ -1,0 +1,39 @@
+api_list_products:
+    path: /products
+    controller: App\Controller\ProductController::index
+    methods: GET
+
+api_create_product:
+    path: /products
+    controller: App\Controller\ProductController::store
+    methods: POST
+
+api_login:
+    path: /login
+    controller: App\Controller\UserController::login
+    methods: POST
+
+api_register:
+    path: /register
+    controller: App\Controller\UserController::register
+    methods: POST
+
+api_add_to_cart:
+    path: /cart
+    controller: App\Controller\CartController::addToCart
+    methods: POST
+
+api_get_cart_detail:
+    path: /cart
+    controller: App\Controller\CartController::getCart
+    methods: GET
+
+api_checkout:
+    path: /cart/checkout
+    controller: App\Controller\CartController::checkout
+    methods: POST
+
+api_clear_cart:
+    path: /cart
+    controller: App\Controller\CartController::clearCart
+    methods: DELETE

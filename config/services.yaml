@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\Controller\:
+        resource: '../src/Controller/*'
+        public: true
+
+    Infrastructure\Database:
+        autowire: true
+
+    Infrastructure\Auth:
+        autowire: true
